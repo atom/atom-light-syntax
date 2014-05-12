@@ -3,9 +3,12 @@
 
 // General colors
 @syntax-text-color: #555;
+@syntax-invisible-text-color: #555;
 @syntax-cursor-color: black;
 @syntax-selection-color: #afc4da;
+@syntax-selection-background-color: #e1e1e1;
 @syntax-background-color: white;
+@syntax-bracket-matcher-background-color: #C9C9C9;
 
 // Guide colors
 @syntax-wrap-guide-color: rgba(85, 85, 85, .2);
@@ -19,11 +22,74 @@
 // Gutter colors
 @syntax-gutter-text-color: @syntax-text-color;
 @syntax-gutter-text-color-selected: @syntax-gutter-text-color;
+@syntax-gutter-text-color-folded: #e87b00;
 @syntax-gutter-background-color: white;
 @syntax-gutter-background-color-selected: rgba(255, 255, 134, 0.34);
+
+// Variables
+@syntax-variables-text-color: #008080;
+@syntax-variables-parameter-text-color: #606aa1;
 
 // For git diff info. i.e. in the gutter
 @syntax-color-renamed: #96CBFE;
 @syntax-color-added: #718C00;
 @syntax-color-modified: #ff982d;
 @syntax-color-removed: #D14;
+
+// Markdown
+@syntax-markdown-color: #444;
+@syntax-markdown-heading-color: #111;
+@syntax-markdown-link-color: #888;
+@syntax-markdown-list-color: #888;
+@syntax-markdown-paragraph-color: #444;
+
+// String and comment colors
+@syntax-comment-color: #999988;
+@syntax-string-color: #D14;
+@syntax-meta-color: #5A5A5A;
+@syntax-punctuation-color: #920B2D;
+
+// Constants
+@syntax-constant-numeric-color: #D14;
+@syntax-constant-language-color: #606aa1;
+@syntax-constant-character-color: #606aa1;
+@syntax-constant-symbol-color: #990073;
+@syntax-constant-line-number-match: rgba(143, 190, 0, 0.63);
+
+// Keyword
+@syntax-keyword-color: #222;
+@syntax-keyword-unit-color: #445588;
+@syntax-keyword-special-method-color: #0086B3;
+
+// Storage
+@syntax-storage-color: #222;
+@syntax-storage-type-color: #222;
+
+// Entity
+@syntax-entity-name-color: #606aa1;
+@syntax-entity-inherited-color: #606aa1;
+@syntax-entity-function-color: #900
+@syntax-entity-tag-color: #008080;
+@syntax-entity-attribute-color: #458;
+@syntax-entity-filename-color: #E6DB74;
+
+// Support
+@syntax-support-constant-color: #458;
+@syntax-support-function-color: #458;
+@syntax-support-type-color: #458;
+@syntax-support-class-color: #008080;
+
+// Invalid
+@syntax-invalid-color: #F8F8F0;
+@syntax-invalid-background-color: #00A8C6;
+@syntax-invalid-deprecated-color: #F8F8F0;
+@syntax-invalid-deprecated-background-color: #8FBE00;
+
+// Meta
+@syntax-meta-dictionary-color: #000080;
+@syntax-meta-dictionary-value-color: #d14;
+@syntax-diff-color: #75715E;
+
+// CSS
+@syntax-css-support-color: #333;
+@syntax-css-constant-color: #099;
