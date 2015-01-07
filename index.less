@@ -90,6 +90,21 @@
   }
 }
 
+:host(.is-focused) {
+  .cursor {
+    border-color: @syntax-cursor-color;
+  }
+
+  .selection .region {
+    background-color: @syntax-selection-color;
+  }
+
+  .line-number.cursor-line-no-selection,
+  .line.cursor-line {
+    background-color: @syntax-gutter-background-color-selected;
+  }
+}
+
 .comment {
   color: #999988;
   font-style: italic;
