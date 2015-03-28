@@ -2,7 +2,7 @@
   "name": "atom-light-syntax",
   "theme": "syntax",
   "version": "0.27.0",
-  "description": "Default light syntax theme",
+  "description": "A light syntax theme",
   "repository": "https://github.com/atom/atom-light-syntax",
   "license": "MIT",
   "engines": {
