@@ -152,7 +152,7 @@ atom-text-editor, :host {
 }
 
 .variable {
-  color: #008080;
+  color: @syntax-color-variable;
 
   &.parameter {
     color: #606aa1;
@@ -161,7 +161,7 @@ atom-text-editor, :host {
 
 // Keywords
 .keyword {
-  color: #222;
+  color: @syntax-color-keyword;
   font-weight: bold;
 
   &.unit {
@@ -184,24 +184,24 @@ atom-text-editor, :host {
 .entity {
   &.name.class {
     text-decoration: underline;
-    color: #606aa1;
+    color: @syntax-color-class;
   }
 
   &.other.inherited-class {
     text-decoration: underline;
-    color: #606aa1;
+    color: @syntax-color-class;
   }
 
   &.name.function {
-    color: #900;
+    color: @syntax-color-function;
   }
 
   &.name.tag {
-    color: #008080;
+    color: @syntax-color-tag;
   }
 
   &.other.attribute-name {
-    color: #458;
+    color: @syntax-color-attribute;
     font-weight: bold;
   }
 
@@ -253,11 +253,11 @@ atom-text-editor, :host {
 .css {
   &.support.property-name {
     font-weight: bold;
-    color: #333;
+    color: @syntax-color-property;
   }
 
   &.constant {
-    color: #099;
+    color: @syntax-color-constant;
   }
 }
 
