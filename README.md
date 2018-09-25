@@ -1,3 +1,7 @@
+### This package is now a part of the [core Atom repository](https://github.com/atom/atom/tree/master/packages/atom-light-syntax), please direct all issues and pull requests there in the future!
+
+---
+
 # Atom Light Syntax theme
 
 A light syntax theme for Atom.
